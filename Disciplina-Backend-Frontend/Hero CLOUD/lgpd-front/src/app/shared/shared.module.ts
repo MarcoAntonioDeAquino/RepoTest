@@ -1,8 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormlyModule } from '@ngx-formly/core';
-import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { FormlyModule } from "@ngx-formly/core";
+import { FormlyBootstrapModule } from "@ngx-formly/bootstrap";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 
 @NgModule({
@@ -15,7 +15,7 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
     FormlyBootstrapModule,
     FormlyModule.forRoot({
       validationMessages: [
-        { name: 'required', message: 'This field is required' },
+        { name: "required", message: "This field is required" },
       ],
     }),
   ],
@@ -25,6 +25,6 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
     FormlyModule,
     FormsModule,
     ReactiveFormsModule,
-  ]
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}
