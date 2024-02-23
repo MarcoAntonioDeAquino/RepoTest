@@ -4,12 +4,14 @@ import { router } from "./routes/router.js";
 
 import sequelize from "./utils/database.js";
 import associaton from "./models/Associations.js";
+import cors from "cors";
 
 const app = express();
 const { json, urlencoded } = pkg;
 
 app.use(json());
 app.use(urlencoded({ extend: true }));
+app.use(cors());
 
 (async () => {
   try {
