@@ -10,7 +10,15 @@ const storage = multer.diskStorage({
     callback(null, "./images");
   },
   filename: function (req, file, callback) {
-    callback(null, file.body.first_name + "_" + req.body.last_name + "_" + Date.now() + file.originalname);
+    callback(
+      null,
+      file.body.first_name +
+        "_" +
+        req.body.last_name +
+        "_" +
+        Date.now() +
+        file.originalname
+    );
   },
 });
 
