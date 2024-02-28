@@ -9,6 +9,7 @@ import cors from "cors";
 const app = express();
 const { json, urlencoded } = pkg;
 
+
 app.use(json());
 app.use(urlencoded({ extend: true }));
 app.use(cors());
