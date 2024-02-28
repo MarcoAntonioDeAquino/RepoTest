@@ -1,7 +1,7 @@
-import User from "./user";
-import Teacher from "./Teacher";
-import Evaluation from "./Evaluation";
-import Course from "./Course";
+import User from "./User.js";
+import Teacher from "./Teacher.js";
+import Evaluation from "./Evaluation.js";
+import Course from "./Course.js";
 
 
 const associations = () => {

@@ -1,7 +1,6 @@
 import express from "express";
 import multer from "multer";
-import process from "process";
-import userService from "../services/UserService";
+import userService from "../services/UserService.js";
 
 let router = express.Router();
 
