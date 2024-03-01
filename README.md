@@ -6,20 +6,24 @@ Esse repositório utilizado o GIT FLOW como fluxo de desenvolvimento padrão.
 
 # Projeto: Intermediary-Backend
 
-1. O que é o Projeto?
+### 1. O que é o Projeto?
   É um projeto para aprender a integrar o back end com o front end de uma API Restful.
-2. O que faz a estrutura?
+### 2. O que faz a estrutura?
   A estrutura faz um CRUD das seguintes entidades: ALUNO, PROFESSOR, CURSO, AVALIAÇÕES.
   []Pode detalhar entidade-relacionamento.
-3. Quais linguagens utilizadas?
+### 3. Quais linguagens utilizadas?
   JavaScript com Node.js e Angular.
-4. Quais ferramentas foram utilizadas?
-  IDE VS CODE
-  Navegador Chrome
-  Versionamento com Git
-  GitFlow com Sourcetree
-  Postgre
-6. Como executar a aplicação?
+### 4. Quais ferramentas foram utilizadas?
+  IDE VS CODE,
+  Navegador Chrome,
+  Versionamento com Git,
+  GitFlow com Sourcetree,
+  PostgreSQL
+### 5. Pré requisitos:
+* Instale a versão mais recente do `<Node.js>`.
+* Caso queira utilizar o upload de imagem:
+ Instale `PostgreSQL` e configure o arquivo `lgpd-back/utils/database.js`
+### 6. Como executar a aplicação?
   Para rodar o back-end, acesse o diretório <lgpd-back> e execute o comando:
   ```
   node index.js
@@ -29,3 +33,4 @@ Esse repositório utilizado o GIT FLOW como fluxo de desenvolvimento padrão.
   ```
   ng serve
   ```
+
