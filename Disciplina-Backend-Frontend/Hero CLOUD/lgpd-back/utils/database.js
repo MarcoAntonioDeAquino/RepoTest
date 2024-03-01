@@ -3,7 +3,7 @@ import { Sequelize } from "sequelize";
 const sequelize = new Sequelize(
     'lgpd-database',
     'postgres',
-    'postgres',
+    'root',
     {
         host: 'localhost',
         dialect: 'postgres',
